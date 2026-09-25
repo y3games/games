@@ -7,6 +7,14 @@ import type { GameEntry } from './types';
  */
 export const GAMES: readonly GameEntry[] = [
   {
+    id: 'arrowsgame',
+    title: 'ArrowsGame',
+    tagline: '화살표를 탈출시키는 실시간 1대1 퍼즐',
+    path: '/ArrowsGame/',
+    accent: '#7c4dff',
+    status: 'live',
+  },
+  {
     id: 'roaddash',
     title: 'RoadDash',
     tagline: '끝없는 도로를 질주하는 반사신경 레이싱',
@@ -20,14 +28,6 @@ export const GAMES: readonly GameEntry[] = [
     tagline: '같은 과일을 떨어뜨려 합치는 물리 퍼즐',
     path: '/MergeDrop/',
     accent: '#f2792c',
-    status: 'live',
-  },
-  {
-    id: 'phaser-starter',
-    title: 'Ball Drop',
-    tagline: '공을 떨어뜨려 점수를 쌓는 템플릿 데모',
-    path: '/phaser-starter/',
-    accent: '#4fc3f7',
     status: 'live',
   },
 ];
